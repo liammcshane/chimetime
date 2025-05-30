@@ -10,7 +10,7 @@ import AppKit
 import AVFoundation
 
 @main
-struct BeepyApp: App {
+struct ChimeTime: App {
     @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     
     var body: some Scene {
@@ -124,7 +124,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         menu.autoenablesItems = false
         
         // App title
-        let titleItem = NSMenuItem(title: "BeepyApp", action: nil, keyEquivalent: "")
+        let titleItem = NSMenuItem(title: "ChimeTime", action: nil, keyEquivalent: "")
         titleItem.isEnabled = false
         menu.addItem(titleItem)
         menu.addItem(NSMenuItem.separator())
@@ -266,7 +266,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         menu.addItem(NSMenuItem.separator())
         
         // Quit
-        let quitItem = NSMenuItem(title: "Quit BeepyApp", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q")
+        let quitItem = NSMenuItem(title: "Quit ChimeTime", action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q")
         menu.addItem(quitItem)
         
         statusBarItem.menu = menu
@@ -275,7 +275,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     func updateMenuBarIcon() {
         let icon = isEnabled ? "🔔" : "🔕"
         statusBarItem.button?.title = icon
-        statusBarItem.button?.toolTip = isEnabled ? "BeepyApp - Chimes Active" : "BeepyApp - Chimes Disabled"
+        statusBarItem.button?.toolTip = isEnabled ? "ChimeTime - Chimes Active" : "ChimeTime - Chimes Disabled"
     }
     
     @objc func toggleEnabled() {
@@ -393,17 +393,17 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let alert = NSAlert()
         alert.messageText = "Setup Auto-Start"
         alert.informativeText = """
-        To make BeepyApp start automatically when you log in:
+        To make ChimeTime start automatically when you log in:
         
         1. Open System Preferences
         2. Go to Users & Groups
         3. Click on your user account
         4. Click the "Login Items" tab
         5. Click the "+" button
-        6. Find and select BeepyApp
+        6. Find and select ChimeTime
         7. Click "Add"
         
-        BeepyApp will then start automatically each time you log in.
+        ChimeTime will then start automatically each time you log in.
         """
         alert.addButton(withTitle: "Open System Preferences")
         alert.addButton(withTitle: "OK")
@@ -540,37 +540,37 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // For modern macOS, we'll skip automatic login item setup
         // Users can manually add the app to Login Items in System Preferences > Users & Groups > Login Items
         // Or we could implement ServiceManagement framework for macOS 13+
-        print("Note: To run BeepyApp at login, add it manually in System Preferences > Users & Groups > Login Items")
+        print("Note: To run ChimeTime at login, add it manually in System Preferences > Users & Groups > Login Items")
     }
     
     // MARK: - Settings Persistence
     
     func saveSettings() {
         let defaults = UserDefaults.standard
-        defaults.set(startHour, forKey: "BeepyApp_startHour")
-        defaults.set(endHour, forKey: "BeepyApp_endHour")
-        defaults.set(chimeMode.rawValue, forKey: "BeepyApp_chimeMode")
-        defaults.set(selectedSound.rawValue, forKey: "BeepyApp_selectedSound")
-        defaults.set(customSounds, forKey: "BeepyApp_customSounds")
-        defaults.set(selectedCustomSoundPath, forKey: "BeepyApp_selectedCustomSoundPath")
-        defaults.set(isEnabled, forKey: "BeepyApp_isEnabled")
+        defaults.set(startHour, forKey: "ChimeTime_startHour")
+        defaults.set(endHour, forKey: "ChimeTime_endHour")
+        defaults.set(chimeMode.rawValue, forKey: "ChimeTime_chimeMode")
+        defaults.set(selectedSound.rawValue, forKey: "ChimeTime_selectedSound")
+        defaults.set(customSounds, forKey: "ChimeTime_customSounds")
+        defaults.set(selectedCustomSoundPath, forKey: "ChimeTime_selectedCustomSoundPath")
+        defaults.set(isEnabled, forKey: "ChimeTime_isEnabled")
         defaults.synchronize()
     }
     
     func loadSettings() {
         let defaults = UserDefaults.standard
-        startHour = defaults.object(forKey: "BeepyApp_startHour") as? Int ?? 9
-        endHour = defaults.object(forKey: "BeepyApp_endHour") as? Int ?? 17
-        isEnabled = defaults.object(forKey: "BeepyApp_isEnabled") as? Bool ?? true
-        customSounds = defaults.stringArray(forKey: "BeepyApp_customSounds") ?? []
-        selectedCustomSoundPath = defaults.string(forKey: "BeepyApp_selectedCustomSoundPath")
+        startHour = defaults.object(forKey: "ChimeTime_startHour") as? Int ?? 9
+        endHour = defaults.object(forKey: "ChimeTime_endHour") as? Int ?? 17
+        isEnabled = defaults.object(forKey: "ChimeTime_isEnabled") as? Bool ?? true
+        customSounds = defaults.stringArray(forKey: "ChimeTime_customSounds") ?? []
+        selectedCustomSoundPath = defaults.string(forKey: "ChimeTime_selectedCustomSoundPath")
         
-        if let chimeModeString = defaults.string(forKey: "BeepyApp_chimeMode"),
+        if let chimeModeString = defaults.string(forKey: "ChimeTime_chimeMode"),
            let mode = ChimeMode(rawValue: chimeModeString) {
             chimeMode = mode
         }
         
-        if let soundString = defaults.string(forKey: "BeepyApp_selectedSound"),
+        if let soundString = defaults.string(forKey: "ChimeTime_selectedSound"),
            let sound = ChimeSound(rawValue: soundString) {
             selectedSound = sound
         }
