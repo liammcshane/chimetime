@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4E355192DE97B6B00465873 /* chimetimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E355182DE97B6B00465873 /* chimetimeApp.swift */; };
+		E4E3551B2DE97B6B00465873 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E3551A2DE97B6B00465873 /* ContentView.swift */; };
+		E4E3551D2DE97B6C00465873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4E3551C2DE97B6C00465873 /* Assets.xcassets */; };
+		E4E355202DE97B6C00465873 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4E3551F2DE97B6C00465873 /* Preview Assets.xcassets */; };
+		E4E3552B2DE97B6C00465873 /* chimetimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E3552A2DE97B6C00465873 /* chimetimeTests.swift */; };
+		E4E355352DE97B6C00465873 /* chimetimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E355342DE97B6C00465873 /* chimetimeUITests.swift */; };
+		E4E355372DE97B6C00465873 /* chimetimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E355362DE97B6C00465873 /* chimetimeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4E355272DE97B6C00465873 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4E3550D2DE97B6B00465873 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4E355142DE97B6B00465873;
+			remoteInfo = chimetime;
+		};
+		E4E355312DE97B6C00465873 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4E3550D2DE97B6B00465873 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4E355142DE97B6B00465873;
+			remoteInfo = chimetime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E4E355152DE97B6B00465873 /* chimetime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chimetime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4E355182DE97B6B00465873 /* chimetimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chimetimeApp.swift; sourceTree = "<group>"; };
+		E4E3551A2DE97B6B00465873 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E4E3551C2DE97B6C00465873 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4E3551F2DE97B6C00465873 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4E355212DE97B6C00465873 /* chimetime.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = chimetime.entitlements; sourceTree = "<group>"; };
+		E4E355262DE97B6C00465873 /* chimetimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chimetimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4E3552A2DE97B6C00465873 /* chimetimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chimetimeTests.swift; sourceTree = "<group>"; };
+		E4E355302DE97B6C00465873 /* chimetimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chimetimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4E355342DE97B6C00465873 /* chimetimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chimetimeUITests.swift; sourceTree = "<group>"; };
+		E4E355362DE97B6C00465873 /* chimetimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chimetimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4E355122DE97B6B00465873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4E355232DE97B6C00465873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4E3552D2DE97B6C00465873 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4E3550C2DE97B6B00465873 = {
+			isa = PBXGroup;
+			children = (
+				E4E355172DE97B6B00465873 /* chimetime */,
+				E4E355292DE97B6C00465873 /* chimetimeTests */,
+				E4E355332DE97B6C00465873 /* chimetimeUITests */,
+				E4E355162DE97B6B00465873 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4E355162DE97B6B00465873 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4E355152DE97B6B00465873 /* chimetime.app */,
+				E4E355262DE97B6C00465873 /* chimetimeTests.xctest */,
+				E4E355302DE97B6C00465873 /* chimetimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4E355172DE97B6B00465873 /* chimetime */ = {
+			isa = PBXGroup;
+			children = (
+				E4E355182DE97B6B00465873 /* chimetimeApp.swift */,
+				E4E3551A2DE97B6B00465873 /* ContentView.swift */,
+				E4E3551C2DE97B6C00465873 /* Assets.xcassets */,
+				E4E355212DE97B6C00465873 /* chimetime.entitlements */,
+				E4E3551E2DE97B6C00465873 /* Preview Content */,
+			);
+			path = chimetime;
+			sourceTree = "<group>";
+		};
+		E4E3551E2DE97B6C00465873 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E4E3551F2DE97B6C00465873 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E4E355292DE97B6C00465873 /* chimetimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4E3552A2DE97B6C00465873 /* chimetimeTests.swift */,
+			);
+			path = chimetimeTests;
+			sourceTree = "<group>";
+		};
+		E4E355332DE97B6C00465873 /* chimetimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E4E355342DE97B6C00465873 /* chimetimeUITests.swift */,
+				E4E355362DE97B6C00465873 /* chimetimeUITestsLaunchTests.swift */,
+			);
+			path = chimetimeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4E355142DE97B6B00465873 /* chimetime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4E3553A2DE97B6C00465873 /* Build configuration list for PBXNativeTarget "chimetime" */;
+			buildPhases = (
+				E4E355112DE97B6B00465873 /* Sources */,
+				E4E355122DE97B6B00465873 /* Frameworks */,
+				E4E355132DE97B6B00465873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chimetime;
+			productName = chimetime;
+			productReference = E4E355152DE97B6B00465873 /* chimetime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4E355252DE97B6C00465873 /* chimetimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4E3553D2DE97B6C00465873 /* Build configuration list for PBXNativeTarget "chimetimeTests" */;
+			buildPhases = (
+				E4E355222DE97B6C00465873 /* Sources */,
+				E4E355232DE97B6C00465873 /* Frameworks */,
+				E4E355242DE97B6C00465873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4E355282DE97B6C00465873 /* PBXTargetDependency */,
+			);
+			name = chimetimeTests;
+			productName = chimetimeTests;
+			productReference = E4E355262DE97B6C00465873 /* chimetimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4E3552F2DE97B6C00465873 /* chimetimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4E355402DE97B6C00465873 /* Build configuration list for PBXNativeTarget "chimetimeUITests" */;
+			buildPhases = (
+				E4E3552C2DE97B6C00465873 /* Sources */,
+				E4E3552D2DE97B6C00465873 /* Frameworks */,
+				E4E3552E2DE97B6C00465873 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4E355322DE97B6C00465873 /* PBXTargetDependency */,
+			);
+			name = chimetimeUITests;
+			productName = chimetimeUITests;
+			productReference = E4E355302DE97B6C00465873 /* chimetimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4E3550D2DE97B6B00465873 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E4E355142DE97B6B00465873 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					E4E355252DE97B6C00465873 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E4E355142DE97B6B00465873;
+					};
+					E4E3552F2DE97B6C00465873 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = E4E355142DE97B6B00465873;
+					};
+				};
+			};
+			buildConfigurationList = E4E355102DE97B6B00465873 /* Build configuration list for PBXProject "chimetime" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4E3550C2DE97B6B00465873;
+			productRefGroup = E4E355162DE97B6B00465873 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4E355142DE97B6B00465873 /* chimetime */,
+				E4E355252DE97B6C00465873 /* chimetimeTests */,
+				E4E3552F2DE97B6C00465873 /* chimetimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4E355132DE97B6B00465873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4E355202DE97B6C00465873 /* Preview Assets.xcassets in Resources */,
+				E4E3551D2DE97B6C00465873 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4E355242DE97B6C00465873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4E3552E2DE97B6C00465873 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4E355112DE97B6B00465873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4E3551B2DE97B6B00465873 /* ContentView.swift in Sources */,
+				E4E355192DE97B6B00465873 /* chimetimeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4E355222DE97B6C00465873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4E3552B2DE97B6C00465873 /* chimetimeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4E3552C2DE97B6C00465873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4E355372DE97B6C00465873 /* chimetimeUITestsLaunchTests.swift in Sources */,
+				E4E355352DE97B6C00465873 /* chimetimeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4E355282DE97B6C00465873 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4E355142DE97B6B00465873 /* chimetime */;
+			targetProxy = E4E355272DE97B6C00465873 /* PBXContainerItemProxy */;
+		};
+		E4E355322DE97B6C00465873 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4E355142DE97B6B00465873 /* chimetime */;
+			targetProxy = E4E355312DE97B6C00465873 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E4E355382DE97B6C00465873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4E355392DE97B6C00465873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E4E3553B2DE97B6C00465873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = chimetime/chimetime.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"chimetime/Preview Content\"";
+				DEVELOPMENT_TEAM = 57UNMAGM89;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = liammcshane.chimetime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E4E3553C2DE97B6C00465873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = chimetime/chimetime.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"chimetime/Preview Content\"";
+				DEVELOPMENT_TEAM = 57UNMAGM89;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = liammcshane.chimetime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E4E3553E2DE97B6C00465873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57UNMAGM89;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = liammcshane.chimetimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chimetime.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/chimetime";
+			};
+			name = Debug;
+		};
+		E4E3553F2DE97B6C00465873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57UNMAGM89;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = liammcshane.chimetimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chimetime.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/chimetime";
+			};
+			name = Release;
+		};
+		E4E355412DE97B6C00465873 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57UNMAGM89;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = liammcshane.chimetimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = chimetime;
+			};
+			name = Debug;
+		};
+		E4E355422DE97B6C00465873 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57UNMAGM89;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = liammcshane.chimetimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = chimetime;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4E355102DE97B6B00465873 /* Build configuration list for PBXProject "chimetime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4E355382DE97B6C00465873 /* Debug */,
+				E4E355392DE97B6C00465873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4E3553A2DE97B6C00465873 /* Build configuration list for PBXNativeTarget "chimetime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4E3553B2DE97B6C00465873 /* Debug */,
+				E4E3553C2DE97B6C00465873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4E3553D2DE97B6C00465873 /* Build configuration list for PBXNativeTarget "chimetimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4E3553E2DE97B6C00465873 /* Debug */,
+				E4E3553F2DE97B6C00465873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4E355402DE97B6C00465873 /* Build configuration list for PBXNativeTarget "chimetimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4E355412DE97B6C00465873 /* Debug */,
+				E4E355422DE97B6C00465873 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4E3550D2DE97B6B00465873 /* Project object */;
+}
